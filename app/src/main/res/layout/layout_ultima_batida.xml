@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardUltimaBatida"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvDataUltimaBatida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data: --"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvEntradaUltimaBatida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entrada: --"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tvSaidaUltimaBatida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saída: --"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
